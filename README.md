@@ -1,3 +1,3 @@
-##Emmet.io plugin to Light Table
+##Emmet.io plugin for Light Table
 
 A simple integration of Emmet.
