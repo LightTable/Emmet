@@ -1,0 +1,9 @@
+{:+ {:app [(:lt.objs.plugins/load-js "emmet.js" true)
+           (:lt.objs.plugins/load-keymap "emmet.keymap")]
+     :editor.emmet [(:lt.object/shadow-tag :editor.keys.normal :editor.keys.normal.emmet)]
+     :editor.xml [(:lt.object/add-tag :editor.emmet)]
+     :editor.xsl [(:lt.object/add-tag :editor.emmet)]
+     :editor.less [(:lt.object/add-tag :editor.emmet)]
+     :editor.css [(:lt.object/add-tag :editor.emmet)]
+     :editor.html [(:lt.object/add-tag :editor.emmet)
+                   (:lt.objs.style/set-theme "cobalt")]}}

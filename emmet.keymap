@@ -1,0 +1,27 @@
+{:+ {:editor.keys.normal.emmet {"pmeta-e" [(:editor.codemirror.command "emmet.expand_abbreviation")]
+                                "tab" [(:editor.codemirror.command "emmet.expand_abbreviation_with_tab")]
+                                "pmeta-d" [(:editor.codemirror.command "emmet.match_pair_outward")]
+                                "shift-pmeta-d" [(:editor.codemirror.command "emmet.match_pair_inward")]
+                                "pmeta-t" [(:editor.codemirror.command "emmet.matching_pair")]
+                                "shift-pmeta-a" [(:editor.codemirror.command "emmet.wrap_with_abbreviation")]
+                                "ctrl-alt-right" [(:editor.codemirror.command "emmet.next_edit_point")]
+                                "ctrl-alt-left" [(:editor.codemirror.command "emmet.prev_edit_point")]
+                                "pmeta-l" [(:editor.codemirror.command "emmet.select_line")]
+                                "pmeta-shift-m" [(:editor.codemirror.command "emmet.merge_lines")]
+                                "pmeta-/" [(:editor.codemirror.command "emmet.toggle_comment")]
+                                "pmeta-j" [(:editor.codemirror.command "emmet.split_join_tag")]
+                                "pmeta-k" [(:editor.codemirror.command "emmet.remove_tag")]
+                                "shift-pmeta-y" [(:editor.codemirror.command "emmet.evaluate_math_expression")]
+
+                                "ctrl-up" [(:editor.codemirror.command "emmet.increment_number_by_1")]
+                                "ctrl-down" [(:editor.codemirror.command "emmet.decrement_number_by_1")]
+                                "alt-up" [(:editor.codemirror.command "emmet.increment_number_by_01")]
+                                "alt-down" [(:editor.codemirror.command "emmet.decrement_number_by_01")]
+                                "ctrl-alt-up" [(:editor.codemirror.command "emmet.increment_number_by_10")]
+                                "ctrl-alt-down" [(:editor.codemirror.command "emmet.decrement_number_by_10")]
+
+                                "shift-pmeta-." [(:editor.codemirror.command "emmet.select_next_item")]
+                                "shift-pmeta-" [(:editor.codemirror.command "emmet.select_previous_item")]
+                                "pmeta-b" [(:editor.codemirror.command "emmet.reflect_css_value")]
+
+                                "enter" [(:editor.codemirror.command "emmet.insert_formatted_line_break_only")]}}}

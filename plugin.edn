@@ -1,0 +1,5 @@
+{:name "Emmet"
+ :author "Chris Granger"
+ :github ""
+ :desc "http://emmet.io/ integration for Light Table"
+ :behaviors "emmet.behaviors"}
