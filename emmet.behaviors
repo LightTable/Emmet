@@ -5,5 +5,4 @@
      :editor.xsl [(:lt.object/add-tag :editor.emmet)]
      :editor.less [(:lt.object/add-tag :editor.emmet)]
      :editor.css [(:lt.object/add-tag :editor.emmet)]
-     :editor.html [(:lt.object/add-tag :editor.emmet)
-                   (:lt.objs.style/set-theme "cobalt")]}}
+     :editor.html [(:lt.object/add-tag :editor.emmet)]}}
