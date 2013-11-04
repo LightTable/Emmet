@@ -1,5 +1,5 @@
 {:name "Emmet"
  :author "Chris Granger"
- :github ""
+ :source "https://github.com/Kodowa/LightTable-Emmet"
  :desc "http://emmet.io/ integration for Light Table"
  :behaviors "emmet.behaviors"}
