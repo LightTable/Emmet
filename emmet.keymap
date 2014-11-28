@@ -21,7 +21,7 @@
                                 "ctrl-alt-down" [(:editor.codemirror.command "emmet.decrement_number_by_10")]
 
                                 "shift-pmeta-." [(:editor.codemirror.command "emmet.select_next_item")]
-                                "shift-pmeta-" [(:editor.codemirror.command "emmet.select_previous_item")]
+                                "shift-pmeta-," [(:editor.codemirror.command "emmet.select_previous_item")]
                                 "pmeta-b" [(:editor.codemirror.command "emmet.reflect_css_value")]
 
                                 "enter" [(:editor.codemirror.command "emmet.insert_formatted_line_break_only")]}}}
